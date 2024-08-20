@@ -1,8 +1,8 @@
 name: Collect
 on:
-  # 每隔3天的上午5点15分执行一次任务
+  # 每隔2天的上午5点15分执行一次任务
   schedule:
-    - cron: "15 5 */3 * *"
+    - cron: "15 5 */2 * *"
   workflow_dispatch:
 
 concurrency:
