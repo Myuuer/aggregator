@@ -2,7 +2,7 @@ name: Refresh
 on:
   # 每天的下午5点15分执行一次任务
   schedule:
-    - cron: "15 5 */3 * *"
+    - cron: "15 17 * * *"
   workflow_dispatch:
 
 concurrency:
