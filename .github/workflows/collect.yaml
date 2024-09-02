@@ -1,6 +1,6 @@
 name: Collect
 on:
-  # 每天的下午5点15分执行一次任务
+  # 每天下午5点15分执行一次任务
   schedule:
     - cron: "15 17 * * *"
   workflow_dispatch:
